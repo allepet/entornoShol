@@ -14,3 +14,6 @@ $(OBJS):
 
 app:
 	$(CXX) $(INCLUDE) $(LDD) build/*.o -oprueba
+
+clean:
+	rm -rf build/*
